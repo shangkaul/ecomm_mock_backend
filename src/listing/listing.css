@@ -1,0 +1,47 @@
+body{
+    max-width:unset ;
+
+}
+.main-body{
+    margin-top: 6rem;
+    width: 100%;
+}
+.main-body>h2{
+    text-align: center;
+}
+
+.main-container{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 2rem;
+    background-color: var(--color-bg);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.grid-menu{
+    background-color: var(--white);
+    color:var(--black);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2rem 2rem;
+}
+.check-grp{
+    padding: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.grid-sidemenu{
+    grid-template-columns: minmax(15rem,1fr) 6fr;
+}
+
+.menu-star{
+    color: gold;
+}
+
+.btn-success{
+    background-color: var(--color-secondary);
+}
